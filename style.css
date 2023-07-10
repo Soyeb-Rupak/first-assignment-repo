@@ -3,15 +3,47 @@
     padding: 0px;
 }
 
+/* Common shared style */
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* nav related style started */
 nav{
 display: flex;
 background-color: rgb(43, 42, 42);
 justify-content: space-around;
 align-items: center;
+padding: 20px;
 
 }
 nav >ul{
-    list-style: none;
     display: flex;
-    margin-right:15px ;
+    align-items: center;
+    
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 20px;
+    color:white;
+}
+
+nav li:hover{
+    color: aqua;
+    cursor: cell;
+}
+/* nav related style end */
+
+.btn{ 
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 43px;
+    
 }
