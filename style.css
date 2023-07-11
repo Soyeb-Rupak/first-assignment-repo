@@ -207,3 +207,21 @@ margin-right: 200px;
 margin-top: 120px;}
 
 /* deals section end */
+
+/* footer starts */
+.footer-container{
+
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    width: 1922px;
+    height: 300px;
+    color: #FFF;
+
+}
+ 
+.footer-title{ padding-top: 80px;
+}
+.copy-right{color: #FFF;}
+.footer-description{color: #FFF;}
