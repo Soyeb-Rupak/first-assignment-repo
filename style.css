@@ -1,28 +1,28 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-/* Common shared style */
+}  
+                        /* Common shared style */
 body{
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-/* nav related style started */
+                        /* nav related style started */
 nav{
-display: flex;
-background-color: rgb(43, 42, 42);
-justify-content: space-around;
-align-items: center;
-padding: 20px;
-
-
+    display: flex;
+    background-color: rgb(43, 42, 42);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo-img{
+    width: 90px;
+    height: 50px;
 }
 nav >ul{
     display: flex;
     align-items: center;
-    
 }
 
 nav li {
@@ -32,13 +32,13 @@ nav li {
     color:white;
 }
 
-.btn nav li:hover{
+li:hover{
     color: aqua;
     cursor: cell;
 }
 
 
-/* nav related style end */
+                        /* nav related style end */
 
 .btn, .btn-sign-up{ 
     border-radius: 8px;
@@ -54,7 +54,11 @@ nav li {
     color: aqua;
     cursor: cell;
 }
-/* banner style starts */
+
+.btn-sign-up{
+    margin: 10px;
+}
+                        /* banner style starts */
 .banner-container, .Promotion-container{
     display: flex;
     justify-content: space-between;
@@ -64,20 +68,14 @@ nav li {
    
 }
 
-.banner-description, .promotion-description{ 
+.banner-description, { 
     max-width: 780px;
 }
 .banner-picture{
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
 }
 
-.banner-title, .promotion-title, .feature-title, .social-media-title, .deals-title{
-    color: #272727;
-    font-size: 60px;
-    font-weight: 800;
-    padding-bottom:20px ;
-}
 p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 24px;
@@ -85,143 +83,222 @@ p{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-/* Promotion section started */
-.promotion-picture{
-    width: 500px;
-    height: 600px;
-    padding-right: 600px;
-}
-.promotion-description, .feature-description, .deals-description, .social-media-description{
-padding-left: 600px;
-}
-.btn-sign-up{
-    margin-left: 300px;
-}
+
+                            /* banner ends */
+                            /* promotion starts */
+
 .Promotion-container{
-    margin-top: 200px;
-}
-span{
-    color: #E55473;
-}
-/* Promotion section end  */
-.feature-container, .service-container, .social-media-container, .deals-container{
-    margin-left: 240px;
-    margin-right: 240px;
-    margin-top: 150px;
-   
-}
-.feature-galary{
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.galary-1, .galary-2, .galary-3{
-    width: 400px;
-    height: 500px;
-    box-sizing: border-box;
-    border-top-left-radius: 250px;
-    border-top-right-radius: 250px;
+.promotion-description{
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
 }
-.galary-1{
-    background: rgba(5, 151, 160, 0.15);   
+.promotion-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+} 
+span{
+    color: #E55473;
 }
-.galary-2{
-    background: rgba(71, 125, 17, 0.15);
-}
-
-.galary-3{
-    background: rgba(167, 33, 98, 0.15);
-}
-/* }
-
-.galary-image-1{
-
-}
-
-.galary-image-2{
-    
-    width: 310px;
-    height: 428px;
-} */
-
-/* .galary-image-3{
-
-} */
-
-.feature-description{
+                                /* promotion starts */
 
 
-}
 /* feature section end */
 
-/* service section starts */
+                                /* service section starts */
 .service-container{
-    width: 1440px;
-    height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 15px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
-/* Social media section started */
-.social-media-pic{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.ser-img-1{
+    padding: 20px 30px 0px 40px; 
 }
-
-.social-media-title{ padding-left: 600px;
-padding-right: 600px;}
-
-
-.social-img1, .social-img2, .social-img3, .social-img4{
-    width: 400px;
-    height: 500px;
-    box-sizing: border-box;
+                                /* service section end */
+                                /* social media section starts */
+.social-media-container{
+    margin-top: 15px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
-
-.social-img3{ background-color: #f7a8b9;
-
+.social-media-title{
+    text-align: center;
+    font-size: 30px;
 }
-.social-img4{background-color: #807e7e;
-
+.s-m-img1, .s-m-img2, .s-m-img3, .s-m-img4 {
+    width: 200px;
+    height: 300px;
+    gap: 05px;
+}
+.s-m-img3{
+   background-color: #f7a8b9;
+}
+.s-m-img4{
+    background-color: #b9b5b6;
+ }
+.social-media-pic{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /*Social media section end  */
-/* deals section start */
-.deals-container{
-    background-image: url("Rectangle\ 9.png");
-    padding-bottom: 50px;
-    width: 1440px;
-    height: 449px;
-   background-repeat: no-repeat;
-   background-position: cover;
+
+                                 /* deal section starts */
+.deal-container{
+    background-image: url("./Flower Asset//Rectangle\ 9.png");
+    background-position:cover ;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+   
+
 }
-.deals-title{padding-left: 400px;
-padding-right: 400px;}
 
-input{ width: 700px;
-height: 40px;
-margin-left: 200px;
-margin-right: 200px;
-margin-top: 120px;}
+.deal-title{
+    text-align: center;
+    font-size: 30px;
 
-/* deals section end */
+   
+}
+.deal-info{
+    margin-top: 40px;
+}
+.input-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
 
-/* footer starts */
-.footer-container{
+
+
+
+.btn-2{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    border: none;
+    padding: 10px;
+   
+}
+.input-div{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.input-area{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.input-field{
+    border-radius: 10px;
+}
+                                        /* deals section end */
+
+                                       
+
+                                    /* features starts */
+.feature-container{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 150px;
+}
+
+.feature-description-1{
+text-align: center;
+font-size: 30px;
+
+} 
+.feature-galary-1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.galary-image-1{
+    background:#f7a8b9 ;
+    box-sizing: border-box;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    padding: 70px 50px 0px 50px ; 
+    width: 310px;
+    height: 380px;
+    margin-bottom: 20px;
+    
+}
+
+.img-info-1 {
+    text-align: center;
+} 
+
+.galary-image-2{
+    background:rgba(5, 151, 160, 0.15);;
+    box-sizing: border-box;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    padding: 70px 50px 0px 50px ; 
+    width: 310px;
+    height: 380px;
+    margin-bottom: 20px;
+}
+
+.galary-image-3{
+    background: rgba(71, 125, 17, 0.15);
+    box-sizing: border-box;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    padding: 70px 50px 0px 50px ; 
+    width: 310px;
+    height: 380px;
+    margin-bottom: 20px;
+}
+                            /* features ends */
+                            /* footer starts */
+ .footer-container{
 
     background-color: rgb(43, 42, 42);
     text-align: center;
     padding: 20px;
     align-items: center;
-    width: 1922px;
-    height: 300px;
     color: #FFF;
+    margin-top: 25px;
+    height: 200px;
 
-}
+} 
  
-.footer-title{ padding-top: 80px;
+.footer-title{
+     padding-top: 05px;
 }
-.copy-right{color: #FFF;}
-.footer-description{color: #FFF;}
+
+.copy-right{
+    color: #FFF;
+    
+}
+.footer-description{
+    color: #FFF;
+}
+
+                                            /* footer ends */
