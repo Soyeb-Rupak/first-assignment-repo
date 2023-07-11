@@ -47,7 +47,7 @@ nav li {
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    padding: 20px 43px;
+    padding: 20px 20px;
     border: none;
     }
 .btn:hover{
@@ -72,7 +72,7 @@ nav li {
     height: 600px;
 }
 
-.banner-title, .promotion-title{
+.banner-title, .promotion-title, .feature-title, .social-media-title, .deals-title{
     color: #272727;
     font-size: 60px;
     font-weight: 800;
@@ -91,8 +91,8 @@ p{
     height: 600px;
     padding-right: 600px;
 }
-.promotion-description {
-padding-left: 400px;
+.promotion-description, .feature-description, .deals-description, .social-media-description{
+padding-left: 600px;
 }
 .btn-sign-up{
     margin-left: 300px;
@@ -104,3 +104,106 @@ span{
     color: #E55473;
 }
 /* Promotion section end  */
+.feature-container, .service-container, .social-media-container, .deals-container{
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 150px;
+   
+}
+.feature-galary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.galary-1, .galary-2, .galary-3{
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.galary-1{
+    background: rgba(5, 151, 160, 0.15);   
+}
+.galary-2{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.galary-3{
+    background: rgba(167, 33, 98, 0.15);
+}
+/* }
+
+.galary-image-1{
+
+}
+
+.galary-image-2{
+    
+    width: 310px;
+    height: 428px;
+} */
+
+/* .galary-image-3{
+
+} */
+
+.feature-description{
+
+
+}
+/* feature section end */
+
+/* service section starts */
+.service-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Social media section started */
+.social-media-pic{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.social-media-title{ padding-left: 600px;
+padding-right: 600px;}
+
+
+.social-img1, .social-img2, .social-img3, .social-img4{
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.social-img3{ background-color: #f7a8b9;
+
+}
+.social-img4{background-color: #807e7e;
+
+}
+/*Social media section end  */
+/* deals section start */
+.deals-container{
+    background-image: url("Rectangle\ 9.png");
+    padding-bottom: 50px;
+    width: 1440px;
+    height: 449px;
+   background-repeat: no-repeat;
+   background-position: cover;
+}
+.deals-title{padding-left: 400px;
+padding-right: 400px;}
+
+input{ width: 700px;
+height: 40px;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 120px;}
+
+/* deals section end */
